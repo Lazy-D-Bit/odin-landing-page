@@ -1,5 +1,6 @@
 body {
     font-family: roboto, sans-serif;
+    margin: 0;
 }
 .header,
 .footer {
@@ -34,4 +35,23 @@ button,
     font-weight: lighter;
     font-style: italic;
     color: #1f2937;
+}
+.header {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.links  {
+    display: flex;
+    align-items: center;
+}
+.link {
+    margin: 10px;
+    margin-right: 0;
+}
+.header-link-text {
+    text-decoration: none;
 }
